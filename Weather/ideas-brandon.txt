@@ -1,1 +1,2 @@
 weather server
+Motion Webcam Out of Bed detector 

@@ -1,7 +1,7 @@
 import urllib.request
 import json
 state= "CA"
-location = "Merced"
+location = "Santa Clarita"
 
 try:
     file = open('master-config','r')
@@ -11,7 +11,7 @@ try:
         if (c==2):
             state = line.rstrip()        
 except IOError:
-    print ("Error: master-config not found. Using default location of Merced, CA")
+    print ("Error: master-config not found. Using default location of Santa Clarita, CA")
 url =  'http://api.wunderground.com/api/325cc240406ab251/conditions/q/' + state + '/' + location + '.json' 
 
 while True:
@@ -19,7 +19,7 @@ while True:
         response = urllib.request.urlopen(url)
         break
     except urllib.error.URLError:
-        print("HELP I FAILED YOU")
+        print("URL Error, could not get weather for %s, %s" % (location,state))
         exit(1)
 
 html = response.read()

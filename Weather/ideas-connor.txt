@@ -1,1 +1,35 @@
-Hi, well im all out of them i guess
+Split Weather-Alarm into two scripts:
+	1) GetWeather - [grabs weather, RETURNS numerical value 1-10 for weather indexing
+		this index determines from 1 (hot and clear) to 10 (cold and obfuscated) the weather]
+	2) WeatherAlarm - Calls "GetWeather"; given time of day and weather index (1-10) this
+		plays a specific music file from ambiance/music vault.
+
+This will allow future expansion on weather indexing in case we ever have another
+project that would require the weather index and we wouldnt need to change a goddamn thing
+always program with expansion in mind.
+
+
+Steps To Victory:
+	1) Finalize Categories
+	2) Make Maths to Categorize efficiently
+	3) Download/host audio files
+	4) Write final Alarm script 
+	5) ????
+	6) PROFIT
+
+
+
+Categories:??
+
+	1		2		3		4		5
+   (Hot/Clear)	   (Hot/Cloudy)	    (Hot/Rain)      (Med/Clear)   (Med / Cloud)
+
+
+
+	6		7		8		9		10
+   (Med/Foggy)     (Med/Rain)  (Med/Heavy-Rain)   (Cold/Clear)    (Cold/Cloudy)	   
+
+
+	11		12 		13		14
+   (Cold/Rain)  ( Cold/HeavyRain)   (Cold/SnowStorm)	(ABYSMAL)
+

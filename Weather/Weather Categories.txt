@@ -1,8 +1,19 @@
-Light Rain 		- 	
-Heavy Rain (rainstorm)	-	RainyMood (Jazz?)
-Thunder Storm 		-	
-Hot Sunny 		-	Summer Bird Chirp (Atmosphere?/sumemr Rap)
-Cold Sunny 		-	Frigid Bird Chirp
-Cloudy 			-	
-Foggy 			- 	
-Snowy			-	
+Light Rain 		- 	[soft rain][umbrealla rain] #{drizzle - showers}
+Heavy Rain (rainstorm)	-	(Jazz?) #{hail - heavy rain}
+Thunder Storm 		-	RainyMood(has thunder in it) [thunderstorm sounds] #{thunder}
+Hot Sunny 		-	Summer Bird Chirp (Atmosphere?/sumemr Rap) #{all clears}
+Cold Sunny 		-	Frigid Bird Chirp #{all sorts of clears but low temperature}
+Cloudy 			-	#{all clouds- mostly cloudy - partly cloudy}
+Foggy 			- 	#{overcast-fog-mist}
+Snowy			-	[charlie brown] [sound of snow]RainyMood #{snow- blowing snow - blizzard}
+
+
+
+## Rainforest sounds - Hot Humid Clear
+## babbling  brook bird chirp - hot humid clear #2 [forest creek]
+## snow fall - cascading piano
+## snow? - crackling fire?
+## ocean + seaugulls - cold Clear
+## !!!! given clear day, and nighttime -CRICKET NOISES search [stargazing]
+## 
+##

@@ -1,20 +1,32 @@
 import urllib.request
 import json
+state= "CA"
+location = "Merced"
+
+try:
+    file = open('master-config','r')
+    for c,line in enumerate(file,start=1):
+        if (c==1):
+            location=line.rstrip()
+        if (c==2):
+            state = line.rstrip()        
+except IOError:
+    print ("Error: master-config not found. Using default location of Merced, CA")
+url =  'http://api.wunderground.com/api/325cc240406ab251/conditions/q/' + state + '/' + location + '.json' 
 
 while True:
     try:
-        response = urllib.request.urlopen('http://api.wunderground.com/api/325cc240406ab251/conditions/q/CA/Merced.json')
+        response = urllib.request.urlopen(url)
         break
-    except ValueError:
+    except urllib.error.URLError:
         print("HELP I FAILED YOU")
+        exit(1)
 
 html = response.read()
-
-
 weather = json.loads(html.decode("utf-8"))
 print ("weather " + weather["current_observation"]["weather"])
 print ("feelslike " + weather["current_observation"]["feelslike_f"])
-print ("wind gust " + weather["current_observation"]["wind_gust_mph"])
+print ("wind gust " +str(weather["current_observation"]["wind_gust_mph"]))
 print ("visibility " + weather["current_observation"]["visibility_mi"])
 print ("humidity " + weather["current_observation"]["relative_humidity"])
 
@@ -23,7 +35,7 @@ usefulWeather += weather["current_observation"]["weather"]
 usefulWeather+="\n"
 usefulWeather += weather["current_observation"]["feelslike_f"]
 usefulWeather+="\n"
-usefulWeather += weather["current_observation"]["wind_gust_mph"]
+usefulWeather += str(weather["current_observation"]["wind_gust_mph"])
 usefulWeather+="\n"
 usefulWeather += weather["current_observation"]["visibility_mi"]
 usefulWeather+="\n"

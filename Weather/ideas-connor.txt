@@ -21,15 +21,21 @@ Steps To Victory:
 
 Categories:??
 
+	0
+   (HOT-ABYSMAL)
+
+
+
 	1		2		3		4		5
    (Hot/Clear)	   (Hot/Cloudy)	    (Hot/Rain)      (Med/Clear)   (Med / Cloud)
 
 
 
 	6		7		8		9		10
-   (Med/Foggy)     (Med/Rain)  (Med/Heavy-Rain)   (Cold/Clear)    (Cold/Cloudy)	   
+   (Hot-warm/Foggy)     (Med/Rain)  (Med/Heavy-Rain)   (Cold/Clear)    (Cold/Cloudy)	   
 
 
-	11		12 		13		14
-   (Cold/Rain)  ( Cold/HeavyRain)   (Cold/SnowStorm)	(ABYSMAL)
+
+	11		12 		13		14		15
+ (Cold-cool/Foggy)   (Cold/Rain)  (Cold/HeavyRain)   (Cold/SnowStorm)  (COLD-ABYSMAL)
 

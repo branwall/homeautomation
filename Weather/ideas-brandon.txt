@@ -1,2 +1,2 @@
-weather server
 motion webcam out of bed detector 
+default alarm sound in case of loss of internet connectivity

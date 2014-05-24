@@ -1,2 +1,155 @@
-motion webcam out of bed detector 
-default alarm sound in case of loss of internet connectivity
+*motion webcam out of bed detector 
+*default alarm sound in case of loss of internet connectivity
+
+
+
+Thoughts on how to score weather:
+
+Factors=
+	Temperature
+	Humidity
+	Weathertype
+	Visibility
+	Wind(gust?)
+
+I think scoring should be as follows:
+
+
+Weathertype = 50% (allows for expansion; if we don't account for a weathertype script will still work)
+Visibility = 20% (ie, fog will dominate)
+Humidity = 15%
+Temperature = 10%
+Wind = 5%
+
+
+
+Actually, let's try a different approach. Just look at type of weather. If a tie breaker is necessary (and I've noted when I think that's the case...) we can simply check the temperature. Doesn't need to be more complicated than this.  I don't think scoring is necessary.
+
+Here are all the categories possible 
+
+*L/H Drizzle
+*L/H Rain
+*L/H Snow
+*L/H Snow Grains
+*L/H Ice Crystals
+*L/H Ice Pellets
+*L/H Hail
+*L/H Mist
+*L/H Fog
+*L/H Fog Patches
+L/H Smoke
+L/H Volcanic Ash
+L/H Widespread Dust
+L/H Sand
+L/H Haze
+L/H Spray
+L/H Dust Whirls
+L/H Sandstorm
+*L/H Low Drifting Snow
+L/H Low Drifting Widespread Dust
+L/H Low Drifting Sand
+*L/H Blowing Snow
+L/H Blowing Widespread Dust
+L/H Blowing Sand
+*L/H Rain Mist
+*L/H Rain Showers
+*L/H Snow Showers
+*L/H Snow Blowing Snow Mist
+*L/H Ice Pellet Showers
+*L/H Hail Showers
+*L/H Small Hail Showers
+*L/H Thunderstorm
+*L/H Thunderstorms and Rain
+*L/H Thunderstorms and Snow
+*L/H Thunderstorms and Ice Pellets
+*L/H Thunderstorms with Hail
+*L/H Thunderstorms with Small Hail
+*L/H Freezing Drizzle
+*L/H Freezing Rain
+*L/H Freezing Fog
+*Patches of Fog
+*Shallow Fog
+*Overcast
+*Clear
+*Partly Cloudy
+*Mostly Cloudy
+*Scattered Clouds
+*Small Hail
+Squalls
+Funnel Cloud
+*Unknown Precipitation
+*Unknown
+
+
+Now, for the categories we actually want:
+
+
+Light Rain: 
+      L/H Drizzle
+      L Rain
+      L Rain Showers
+      L Rain Mist
+      L Freezing Rain
+      L/H Freezing Drizzle
+      Unknown Precipiation
+
+Rain Storm:
+     H Rain (and normal)
+     H Rain Showers (and normal)
+     H Freezing Rain (and normal)
+     H Rain Mist (and normal)
+     L/H Hail
+     Small Hail
+     L/H Ice Crystals
+     L/H Ice Pellets
+     L/H Hail Showers
+     L/H Small Hail Showers
+     L/H Ice Pellet Showers
+     
+Thunder Storm:
+	L/H Thunderstorm
+	L/H Thunderstorms and Rain
+	L/H Thunderstorms and Snow
+	L/H Thunderstorms and Ice Pellets
+	L/H Thunderstorms with Hail
+	L/H Thunderstorms with Small Hail
+
+
+
+Hot Sunny: (temp above 70 F)
+	Clear
+	Partly Cloudy
+	Scattered Clouds
+	Unknown (incl all other options)
+	
+
+Cold Sunny: (same as above but below 70 F)
+
+Cloudy:
+	Mostly Cloudy
+
+Foggy:
+	Patches of Fog
+	Shallow Fog
+	Overcast
+	L/H Freezing Fog
+	L/H Fog
+	L/H Fog Patches
+	L/H Mist
+
+Snowy:
+	L/H Snow
+	L/H Snow Grains
+	L/H Low Drifting Snow
+	L/H Blowing Snow
+	L/H Snow Showers
+	L/H Snow Blowing Snow Mist
+	
+
+Warm Night: (use temp + time of day, check for these first)
+
+Cold Night:
+
+
+
+Seems easy enough?

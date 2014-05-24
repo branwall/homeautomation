@@ -53,9 +53,12 @@ if ( wType=="Light Drizzle" or wType=="Heavy Drizzle" or wType=="Drizzle" or wTy
     wReturn = Categories['LR']
 elif (wType=="Rain" or wType=="Heavy Rain" or wType=="Rain Showers" or wType=="Heavy Rain Showers" or
       wType=="Heavy Freezing Rain" or wType=="Freezing Rain" or wType=="Heavy Rain Mist" or
-      wType=="Rain Mist" or wType.split()[1]=="Hail" or wType=="Hail"):
-    #there are more but I have to stop for the night
+      wType=="Rain Mist" or wType.split()[1]=="Hail" or wType=="Hail" or wType=="Small Hail"  or 
+      wType.split()[1]=="Ice Crystals"  or wType=="Ice Crystals" or wType.split()[1]=="Ice Pellets" or
+      wType=="Ice Pellets" or wType.split()[1]=="Hail" or wType=="Hail Showers" or
+      wType.split()[2]=="Hail" or wType.split()[2]=="Pellet"):
     wReturn = Catergories['RS']
+elif (wType==)
 else:
     print( Categories['HS'])
     wReturn = Categories['HS']

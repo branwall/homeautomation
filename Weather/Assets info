@@ -1,0 +1,30 @@
+We will be using google drive to host our assets in an easily accessible manner.  The following code (untested) should
+allow us to download an entire folder of assets, to be unzipped and then accessed and deleted (or cached forever...?)
+
+
+
+NB: login to drive.google.com as myautomationserver
+    pw = you can guess.
+    
+
+Upload files to the Weather Assets folder. Update them in the asset_list.txt accordingly. Then, when finished, delete the zip folder.
+Go up one directory and download the whole folder as a .zip.  Then reupload the .zip INSIDE the Weather Assets folder.
+
+Finally, get the link. Right click the .zip and select "share" to get the share link.
+
+Paste the link here: https://sites.google.com/site/gdocs2direct/
+And then add the output to our script. Output should look like this
+
+
+https://docs.google.com/uc?export=download&id=0BywQ_tTiPMsrWjlPYWF1QUMzb1U
+***********************************************************************
+
+url = "https://docs.google.com/uc?export=download&id=0BywQ_tTiPMsrWjlPYWF1QUMzb1U"
+file_name=Weather_Assets.zip
+
+
+import urllib.request
+# Download the file from `url` and save it locally under `file_name`:
+with urllib.request.urlopen(url) as response, open(file_name, 'wb') as out_file:
+    data = response.read() # a `bytes` object
+    out_file.write(data)

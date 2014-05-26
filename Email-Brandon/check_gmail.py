@@ -21,17 +21,18 @@ def main():
     response = feedparser.parse("https://" + settings['un'] + ":" + settings['pw'] 
                                 + "@mail.google.com/gmail/feed/atom")
 
-#NOTE: I have changed the "timeout" parameter of feedparser to be 10 seconds.
-#this can be adjusted (or completely removed) by opening feedparser.py
-#and altering line 3005
+    #NOTE: I have changed the "timeout" parameter of feedparser to be 10 seconds.
+    #this can be adjusted (or completely removed) by opening feedparser.py
+    #and altering line 3005
 
     output={}
     
     try:
         unread_count = int(response["feed"]["fullcount"])
-        if settings['tot']>unread_count:
+        if int(settings['tot'])>unread_count:
             settings['tot']=0
-        elif settings['tot']==unread_count:
+
+        if settings['tot']==unread_count:
             output['type']='No new mail.'
         else:
             i=unread_count-settings['tot']-1
@@ -49,4 +50,3 @@ def main():
     with open('last_email','w') as f:
         json.dump(output,f)
 
-main()

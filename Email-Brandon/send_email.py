@@ -5,12 +5,10 @@ try:
     settings=json.load(f)
     f.close()
 except (ValueError,IOError):
-    print "Error: No config file exists (to create one, try checking mail!"
+    print ("Error: No config file exists (to create one, try checking mail!")
     exit(1)
 
 def send(toAdd, fromAdd, body):
-    smtpUser = 'myautomationserver@gmail.com'
-    smtpPass = 'bottlecap'
     subject = ''
     header = 'To: ' + toAdd +  '\n' + 'From: ' + fromAdd + '\n' + 'Subject: ' + subject
     s = smtplib.SMTP('smtp.gmail.com',587)

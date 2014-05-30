@@ -1,0 +1,499 @@
+
+
+
+
+
+
+
+	
+	
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Class Schedules and Registration | The University of Chicago</title>
+<link rel="stylesheet" href="https://classes.uchicago.edu/c/screen.css?updated=01102014" type="text/css" media="all" />
+<link rel="stylesheet" href="https://classes.uchicago.edu/c/colorbox.css" type="text/css" media="all" />
+<!--[if IE 6]>
+<link rel="stylesheet" href="https://classes.uchicago.edu/c/ie6.css" type="text/css" media="screen, projection" />
+<![endif]-->
+<!--[if IE 7]>
+<link rel="stylesheet" href="https://classes.uchicago.edu/c/ie7.css" type="text/css" media="screen, projection" />
+<![endif]-->
+<!--[if lte IE 8]>
+<link rel="stylesheet" href="https://classes.uchicago.edu/c/ie.css" type="text/css" media="screen, projection" />
+<![endif]-->
+<!--[if IE 9]>
+<link rel="stylesheet" href="https://classes.uchicago.edu/c/ie9.css" type="text/css" media="screen, projection" />
+<![endif]-->
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="content-language" content="en-us" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<meta http-equiv="imagetoolbar" content="false" />
+<meta name="format-detection" content="telephone=no" />
+<link rel="home" href="https://classes.uchicago.edu/" title="Home" />
+<link rel="icon" type="image/x-icon" href="https://classes.uchicago.edu/i/favicon.ico" />
+<!--
+		/*
+		* MyFonts webfont Build ID 828588, 2011-06-01T09:48:42-0400
+		*
+		* The fonts listed in this notice are subject to the End User License
+		* Agreement(s) entered into by the website owner. All other parties are
+		* explicitly restricted from using the Licensed webfonts(s).
+		*
+		* You may obtain a valid license at the URLs below.
+		*
+		* webfont: Proxima Nova Thin
+		* URL: http://new.myfonts.com/fonts/marksimonson/proxima-nova/thin/
+		* Foundry: Mark Simonson
+		* Copyright: Copyright (c) Mark Simonson, 2005. All rights reserved.
+		* License: http://www.myfonts.com/viewlicense?1056
+		* Licensed pageviews: 10,000,000/month
+		* CSS font-family: ProximaNovaT-Thin
+		* CSS font-weight: normal
+		*
+		* webfont: Proxima Nova Light
+		* URL: http://new.myfonts.com/fonts/marksimonson/proxima-nova/light/
+		* Foundry: Mark Simonson
+		* Copyright: Copyright (c) Mark Simonson, 2005. All rights reserved.
+		* License: http://www.myfonts.com/viewlicense?1056
+		* Licensed pageviews: 10,000,000/month
+		* CSS font-family: ProximaNova-Light
+		* CSS font-weight: normal
+		*
+		* webfont: Proxima Nova Regular
+		* URL: http://new.myfonts.com/fonts/marksimonson/proxima-nova/regular/
+		* Foundry: Mark Simonson
+		* Copyright: Copyright (c) Mark Simonson, 2005. All rights reserved.
+		* License: http://www.myfonts.com/viewlicense?1056
+		* Licensed pageviews: 10,000,000/month
+		* CSS font-family: ProximaNova-Regular
+		* CSS font-weight: normal
+		*
+		* webfont: Proxima Nova Semibold
+		* URL: http://new.myfonts.com/fonts/marksimonson/proxima-nova/semibold/
+		* Foundry: Mark Simonson
+		* Copyright: Copyright (c) Mark Simonson, 2005. All rights reserved.
+		* License: http://www.myfonts.com/viewlicense?1056
+		* Licensed pageviews: 10,000,000/month
+		* CSS font-family: ProximaNova-Semibold
+		* CSS font-weight: norma
+		*
+		* webfont: Proxima Nova Bold
+		* URL: http://new.myfonts.com/fonts/marksimonson/proxima-nova/bold/
+		* Foundry: Mark Simonson
+		* Copyright: Copyright (c) Mark Simonson, 2005. All rights reserved.
+		* License: http://www.myfonts.com/viewlicense?1056
+		* Licensed pageviews: 10,000,000/month
+		* CSS font-family: ProximaNova-Bold
+		* CSS font-weight: normal
+		*
+		* (c) 2011 Bitstream Inc
+		*/
+		-->
+<link rel="stylesheet" href="https://identity.uchicago.edu/c/fonts/proximanova.css" />
+<!--[if lt IE 7]>
+<script type="text/javascript" src="https://classes.uchicago.edu//js/ie6.js"></script>
+<![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+<link rel="stylesheet" href="https://classes.uchicago.edu/c/respond.css" type="text/css" media="screen, projection" />
+<link rel="stylesheet" href="https://classes.uchicago.edu/c/print.css?updated=11152013" type="text/css" media="print" />
+
+<script type="text/javascript">
+	// For preventing flash of unstyled content
+	document.documentElement.className = 'js';
+</script>
+</head>
+<body class="prod logged-in">
+<div id="skip-link">
+<a href="#main-content" class="element-invisible element-focusable" tabindex="1">Skip to main content</a>
+</div>
+
+<div id="page-wrapper">
+<div id="feedback">
+<div class="container_12">Welcome to the new class schedules and registration website.<br /> Please <strong><a href="https://nsitwebservices.wufoo.com/forms/z7s1x7/" target="_blank" tabindex="2">send us your feedback</a></strong> to let us know how we can improve your experience.
+</div>
+</div>
+<div id="page">
+<div id="header">
+<div class="clearfix container_12">
+<div id="name-and-slogan">
+<div id="site-name">
+<h1><a href="https://classes.uchicago.edu/loggedin/myCourses.php" title="Class Schedules and Registration" rel="home" class="grid_8" id="dept-title" tabindex="5">
+	Class Schedules <span class="smallhide">and Registration</span>
+</a></h1>
+<a href="http://www.uchicago.edu/" title="University of Chicago Home" id="wordmark" class="grid_4" tabindex="5">
+	The University of Chicago
+</a>
+</div>
+</div>
+<!-- /#name -->
+</div>
+</div>
+<!-- /#header -->
+<div id="main-wrapper" class="clearfix">
+<div id="main" class="clearfix container_12">
+<div id="content" class="wide">
+<!-- userheader -->
+
+<!-- non-mobile header -->
+
+	<div id="userheader" class="clearfix">
+	
+		
+				
+				<p class="utility clearfix"><a href="https://classes.uchicago.edu/loggedin/myCourses.php" tabindex="5">My Courses</a> | <a href="https://classes.uchicago.edu/loggedin/registrationCalendar.php" tabindex="5">Registration Calendar &amp; Deadlines</a> | <a href="https://classes.uchicago.edu/searchEvaluations.php">Search Evaluations</a> | <a href="https://classes.uchicago.edu/loggedin/help.php" tabindex="5">Help</a> |  <a href="https://classes.uchicago.edu/loggedin/feedback.php" tabindex="5">Feedback</a> | <a href="https://classes.uchicago.edu/logout.php" tabindex="5">Log Out</a></p>
+			<div class="left">
+				<h2 class="first">Brandon Wallace</h2>
+				<p>Undergraduate in Political Science</p>
+			
+			<p class="smallhide">You have registered for 0 out of 400 maximum units.</p>
+			
+			</div>
+			<div class="rightside smallhide">
+				
+					
+						<p>
+							<strong><span class="green">Add/drop for Summer 2014 is OPEN.</span><br /></strong>
+							<strong>You may add courses until:</strong>
+							
+							06/09/2014 05:00 PM
+							
+						</p>
+					
+					
+					
+				
+			</div>
+		
+	
+	</div>
+	<!-- searchbox and term select -->
+	<a id="main-content" tabindex="9"></a>
+	
+		
+	<form action="" method="post" id="termSubmit">
+	<div id="termbox" class="rounded4 clearfix">
+	<div class="left"><h3><span class="smallhide">Selected </span>Term: Summer 2014</h3></div>
+	<div class="right">
+	<label class="hide" for="termSelect">Switch terms</label>
+	<select id="termSelect" tabindex="10" name="TermName" >
+	<option value="">Switch terms...</option>
+	
+			<option value="Autumn 2014">Autumn 2014</option>
+	
+			<option value="Summer 2014">Summer 2014</option>
+	
+			<option value="Spring 2014">Spring 2014</option>
+	
+			<option value="Winter 2014">Winter 2014</option>
+	
+			<option value="Autumn 2013">Autumn 2013</option>
+	
+			<option value="Summer 2013">Summer 2013</option>
+	
+			<option value="Spring 2013">Spring 2013</option>
+	
+			<option value="Winter 2013">Winter 2013</option>
+	
+			<option value="Autumn 2012">Autumn 2012</option>
+	
+			<option value="Summer 2012">Summer 2012</option>
+	
+			<option value="Spring 2012">Spring 2012</option>
+	
+			<option value="Winter 2012">Winter 2012</option>
+	
+			<option value="Autumn 2011">Autumn 2011</option>
+	
+			<option value="Summer 2011">Summer 2011</option>
+	
+			<option value="Spring 2011">Spring 2011</option>
+	
+			<option value="Winter 2011">Winter 2011</option>
+	
+			<option value="Autumn 2010">Autumn 2010</option>
+	
+			<option value="Summer 2010">Summer 2010</option>
+	
+			<option value="Spring 2010">Spring 2010</option>
+	
+			<option value="Winter 2010">Winter 2010</option>
+	
+			<option value="Autumn 2009">Autumn 2009</option>
+	
+			<option value="Summer 2009">Summer 2009</option>
+	
+			<option value="Spring 2009">Spring 2009</option>
+	
+			<option value="Winter 2009">Winter 2009</option>
+	
+			<option value="Autumn 2008">Autumn 2008</option>
+	
+			<option value="Summer 2008">Summer 2008</option>
+	
+			<option value="Spring 2008">Spring 2008</option>
+	
+			<option value="Winter 2008">Winter 2008</option>
+	
+			<option value="Autumn 2007">Autumn 2007</option>
+	
+			<option value="Summer 2007">Summer 2007</option>
+	
+			<option value="Spring 2007">Spring 2007</option>
+	
+			<option value="Winter 2007">Winter 2007</option>
+	
+			<option value="Autumn 2006">Autumn 2006</option>
+	
+			<option value="Summer 2006">Summer 2006</option>
+	
+			<option value="Spring 2006">Spring 2006</option>
+	
+	</select>
+	<input type="submit" name="switch" class="button" value="Switch" id="termswitch" tabindex="10" />
+	</div>
+	</div>
+	</form>
+
+		
+	<div id="searchbox" class="rounded4">
+	<form action="https://classes.uchicago.edu/search.php" method="get" id="quickSearch">
+	
+		
+	
+	<div class="searchboxtop clearfix">
+	<label class="hide" for="keywordSearch">Search by course name or number, or instructor name</label>
+	<input type="text" class="rounded4-no-ie" name="Keyword" id="keywordSearch" value="cmsc 151" maxlength="60" tabindex="10" />
+	<div class="triangle-border top tooltip smallhide">For best results, limit your search to one or two keywords, e.g. "CHEM 10100", "Smith", "Inorganic"</div>
+	<div class="left radios">
+	<div class="form-item">
+	<label for="courselevel" id="courseLevelLabel">Course level: </label>
+	<select name="CourseLevel" id="courselevel" tabindex="20">
+	<option value="All" >All</option>
+	<option value="Undergraduate" selected>Undergraduate</option>
+	<option value="Graduate">Graduate</option>
+	</select>
+	</div>
+	</div>
+	<div class="right">
+	<input type="submit" name="search" value="SEARCH" class="form-submit" id="keywordSubmit" tabindex="30" />
+	</div>
+	</div>
+	<div class="searchboxbottom clearfix">
+	<span class="left clearfix smallhide">You may also <a href="https://classes.uchicago.edu/browse.php" tabindex="40">browse by department</a>.
+	</span>
+	<span class="right clearfix"><a href="https://classes.uchicago.edu/advancedSearch.php" tabindex="50">Advanced Search </a></span>
+	</div>
+	</form>
+	</div>
+
+	
+
+<!-- /non-mobile header -->
+
+<!-- mobile header -->
+
+<!-- /mobile-header -->
+
+<!-- /userheader -->
+
+
+
+
+<!-- /searchbox -->
+
+<!-- successMessage for add/drop/swap -->
+
+
+
+
+<h1 id="page-title">Summer 2014 courses matching your search criteria</h1>
+
+
+
+
+
+
+	
+	
+		
+
+		
+	
+	
+
+
+	
+	<!-- show large screen version of search results -->
+		<table class="coursetable searchresults">
+		<tr>
+		<th class="one">Course/Section</th>
+		<th class="two">Title</th>
+		<th class="three">Instructor(s)</th>
+		<th class="four">Days &amp; Times <img src="https://classes.uchicago.edu/i/help.gif" alt="Day and time help" class="hastip tooltiphelp smallhide" /><div class="tooltip narrow"><strong>M</strong> &mdash; Monday<br /><strong>T</strong> &mdash; Tuesday<br /><strong>W</strong> &mdash; Wednesday<br /><strong>R</strong> &mdash; Thursday<br /><strong>F</strong> &mdash; Friday<br /><strong>S</strong> &mdash; Saturday<br /><strong>U</strong> &mdash; Sunday</div></th>
+		<th class="six">Enrollment</th>
+		</tr>
+		
+		
+		
+			<tr class="resultrow" onclick="">
+			<td class="one">
+			<span class="name"><a class="moreInfo" href="https://classes.uchicago.edu/courseDetailSearch.php?courseName=CMSC 15100&amp;sectionName=91"><span class="plus"><img src="https://classes.uchicago.edu//i/arrowright.gif" alt="View details for this course" /></span><span class="minus" style="display:none;"><img src="https://classes.uchicago.edu//i/arrowdown.gif" alt="Collapse details for this course" /></span></a> CMSC 15100/91</span>
+			</td>
+			<td class="two">
+			Intro To Computer Science-1
+			</td>
+			<td class="three">
+						<div class="instructors">
+						Seltzer
+						</div></td>
+			<td class="four">
+				
+				
+					
+					<div class="daytime clearfix ">
+						<div class="daysofweek">
+							<span class="dayofweek">M</span> <span class="dayofweek">W</span> <span class="dayofweek">F</span> 
+						</div>
+						
+							<div class="times">
+								01:30PM-03:30PM (Course)
+							</div>
+						
+					</div>
+				
+					
+					<div class="daytime clearfix last">
+						<div class="daysofweek">
+							<span class="dayofweek">W</span> 
+						</div>
+						
+							<div class="times">
+								04:00PM-06:00PM (Lab)
+							</div>
+						
+					</div>
+				
+			</td>
+			<td class="six">
+				
+					32/NO LIMIT
+					
+				
+			</td>
+			</tr>
+			<tr class="expandrow"><td colspan="6" class="expandcontainer"><div class="moreinfo" style="display:none" ></div></td></tr>
+		
+		</table>
+	
+
+
+<form target="_blank" name="form1" id="form1" method="POST" action="http://uchicago.bncollege.com/webapp/wcs/stores/servlet/TBListView?cm_mmc=RI-_-491-_-A-_-1">
+<input type="hidden" id="storeId" name="storeId" value="15063"/>
+<input type="hidden" name="catalogId" value="10001"/>
+<input type="hidden" name="langId" value="-1"/>
+<input type="hidden" name="termMapping" value="Y" />
+<input type="hidden" id="courseXml" name="courseXml" value=''/>
+</form>
+</div>
+<!-- /#content -->
+</div>
+<!-- /#main -->
+</div>
+<!-- /#main-wrapper -->
+<div id="clearfoot">&nbsp;</div>
+</div>
+</div>
+<!-- /#page, /#page-wrapper -->
+
+<!-- non-mobile footer -->
+
+	<div id="footer-wrapper">
+	<div class="container_12">
+	<div id="footer" class="clearfix">
+	<div class="grid_3">
+	<p>
+	&copy; <a href="http://www.uchicago.edu/">The University of Chicago</a>
+	<br />
+	<a href="/">
+	Class Schedules and Registration
+	</a>
+	</p>
+	</div>
+	<div class="grid_3">
+	<div class="view-footer">
+	<div class="field-content">
+	5801 South Ellis
+	</div>
+	<div class="field-content">
+	Chicago, IL 60637
+	</div>
+	<div class="field-content">
+	773.702.1234
+	</div>
+	</div>
+	</div>
+	</div>
+	<!-- /#footer -->
+	</div>
+	</div>
+	<!-- /#footer-wrapper -->
+
+<!-- /non-mobile footer -->
+
+<!-- mobile footer -->
+
+<!-- /mobile footer -->
+
+<!-- preload the loader gif -->
+<div class="lightbox-loader nodisplay"></div>
+
+<script type="text/javascript" src="https://webresources.uchicago.edu/js/jquery-1.6.1.min.js"></script>
+<script type="text/javascript" src="https://webresources.uchicago.edu/js/jquery.tools-1.2.6-tooltip_withdynamicplugin.min.js"></script>
+<script type="text/javascript" src="https://webresources.uchicago.edu/js/jquery.dataTables-1.7.0.min.js"></script>
+<script type="text/javascript" src="https://webresources.uchicago.edu/js/jquery.colorbox-min-1.3.17.2.js"></script>
+<script type="text/javascript" src="https://webresources.uchicago.edu/js/jquery.loadmask.min.js"></script>
+<script type="text/javascript" src="https://webresources.uchicago.edu/js/jquery-ui-1.8.10.custom.min.js"></script>
+<script type="text/javascript" src="https://classes.uchicago.edu/js/main.js?updated=07312013"></script>
+
+<script type="text/javascript">
+
+$('h2 + content').prev().click(new function() {
+$(this).next().toggle();
+$('#messages').insertBefore($('#page-title'))
+});
+
+
+// timeout warning and redirect
+setTimeout(function(){
+	alert('You have been logged out due to inactivity');
+	window.location.replace('/logout.php');
+  }, 1740*1000);
+
+
+</script>
+<script type="text/javascript" src="https://classes.uchicago.edu/js/textbooks.js?12=345"></script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-25435226-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+</html>
+
+<script type="text/javascript" src="https://classes.uchicago.edu/js/ajaxMoreInfo.js"></script>

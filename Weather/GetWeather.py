@@ -1,3 +1,7 @@
+#!/usr/bin/python3
+
+#uses Python3
+
 import urllib.request
 import json
 Categories={'LR': 'Light Rain',
@@ -9,14 +13,15 @@ Categories={'LR': 'Light Rain',
             'FG': 'Foggy',
             'SW': 'Snowy',
             'WN': 'Warm Night',
-            'CN': 'Cold Night'}
+            'CN': 'Cold Night',
+            'PT': 'Particulate'}
 
 
 #Default values for variables:
 state= "CA"
 location = "Santa Clarita"
 try:
-    file = open('master-config','r')
+    file = open('/home/pi/dev/HomeAutomation/homeautomation/Weather/master-config','r')
     for c,line in enumerate(file,start=1):
         if (c==1):
             location=line.rstrip()
@@ -31,8 +36,8 @@ while True:
         response = urllib.request.urlopen(url)
         break
     except urllib.error.URLError:
-        print("URL Error, could not get weather for %s, %s"
-              + " (Check  your master-config file)" % (location,state))
+        print("URL Error, could not get weather for " + location + ", " + state
+              + " (Check  your master-config file)")
         exit(1)
 
 html = response.read()
@@ -45,23 +50,40 @@ wTime=wValues["local_time_rfc822"]
 
 wReturn=Categories['CS'] #just an initializer
 
-if ( wType=="Light Drizzle" or wType=="Heavy Drizzle" or wType=="Drizzle" or wType=="Light Rain" or 
-     wType=="Light Rain Showers" or wType=="Light Rain Mist" or wType=="Light Freezing Rain" or 
-     wType=="Light Freezing Drizzle" or wType=="Freezing Drizzle" or wType=="Heavy Freezing Drizzle" or
-     wType=="Unknown Precipitation" ):
-    print (Categories['LR'])
-    wReturn = Categories['LR']
-elif (wType=="Rain" or wType=="Heavy Rain" or wType=="Rain Showers" or wType=="Heavy Rain Showers" or
-      wType=="Heavy Freezing Rain" or wType=="Freezing Rain" or wType=="Heavy Rain Mist" or
-      wType=="Rain Mist" or wType.split()[1]=="Hail" or wType=="Hail" or wType=="Small Hail"  or 
-      wType.split()[1]=="Ice Crystals"  or wType=="Ice Crystals" or wType.split()[1]=="Ice Pellets" or
-      wType=="Ice Pellets" or wType.split()[1]=="Hail" or wType=="Hail Showers" or
-      wType.split()[2]=="Hail" or wType.split()[2]=="Pellet"):
-    wReturn = Catergories['RS']
-elif (wType==)
+#print (wType,end=" = ");
+if((wType.split( )[0] == 'Light') or (wType.split( )[0] == 'Heavy')):
+        wType=wType[6:];
+if(wType.split( )[0] == 'Blowing'):
+        wType=wType[8:];
+if(wType.split( )[0] == 'Low'):
+        wType=wType[13:];
+if(wType.split( )[0] == 'Widespread'):
+        wType=wType[11:];
+if(wType.split( )[0] == 'Freezing'):
+        wType=wType[9:];
+    #NOTE: "Patches/Shallow/Partial" are all unique identifiers of FOG
+    #NOTE: "Mostly/Partly/Scattered/Funnel" are all unique to CLOUDS,
+            #^^^ however there is a thunderstorm->thunderstorms clause there (cloudy->clouds)
+
+if ((wType.split( )[0] == 'Drizzle') or (wType[0:5] == 'Rain ') or (wType.split( )[0] == 'Ice') or (wType.split( )[0] == 'Small') or (wType.split( )[0] == 'Spray')):
+    wReturn=Categories['LR'];
+elif ((wType.split( )[0] == 'Rain') or (wType.split( )[0] == 'Hail')):
+    wReturn=Categories['RS'];
+elif ((wType.split( )[0] == 'Snow')):
+    wReturn=Categories['SW'];
+elif ((wType.split( )[0] == 'Thunderstorm') or (wType.split( )[0] == 'Thunderstorms')):
+    wReturn=Categories['TS'];
+elif ((wType.split( )[0] == 'Mist') or (wType.split( )[0] == 'Overcast') or (wType.split( )[0] == 'Fog') or (wType.split( )[0] == 'Patches') or (wType.split( )[0] == 'Shallow') or (wType.split( )[0] == 'Funnel') or (wType.split( )[0] == 'Partial')):
+    wReturn=Categories['FG'];
+elif ((wType.split( )[0] == 'Haze') or (wType.split( )[0] == 'Clear') or (wType.split( )[0] == 'Partly') or (wType.split( )[0] == 'Mostly') or (wType.split( )[0] == 'Scattered')):
+    if(int(wTemp) > 65):
+        wReturn=Categories['HS'];
+    else:
+        wReturn=Categories['CS'];
 else:
-    print( Categories['HS'])
-    wReturn = Categories['HS']
+    wReturn=Categories['PT'];
+print(wReturn);
 
+def weatherReturn():
+    return wReturn;
 
-  

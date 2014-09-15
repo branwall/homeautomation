@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#get path by running " echo $PATH "
 export PATH="/usr/lib/arm-linux-gnueabihf/libfm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games"
 
 if [ "$(( ( RANDOM % 40 ) + 1 ))" = "1" ]; then
